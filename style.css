@@ -399,12 +399,30 @@ footer{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+.rnav ul li a{
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    
+}
+.rnav ul li{
+    display: block;
+    margin: 10px;
+}
+.rnav{
+    display: none;
+}
+.rnav{
+    margin-left: 50%;
+}
 /* media quiery */
 @media screen and (max-width:1154px) {
 .nav ul li{
     display: none;
 }
-
+.rnav{
+    display: inline;
+}
 .search{
     display: none;
 }
