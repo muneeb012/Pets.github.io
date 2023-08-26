@@ -405,6 +405,15 @@ footer{
     text-decoration: none;
     
 }
+.mail{
+
+    /* width: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .rnav ul li{
     display: block;
     margin: 10px;
@@ -477,8 +486,8 @@ margin-left: -50px;
         align-items: center;
         justify-content: center;
         padding-top: 5px;
-        width: 23px;
-        height: 23px;
+        width: 40px;
+        height: 40px;
     }
     .s1text{
         width: 300px;
@@ -499,7 +508,7 @@ margin-left: -50px;
     }
  
 }
-@media only screen and (max-width: 412px){
+@media only screen and (max-width: 493px){
 
   .himg{
     display: none;
@@ -513,6 +522,7 @@ margin-left: -50px;
     padding: 40px;
     
   }
+
   .videos video{
     width: 300px;
     height: auto;
@@ -538,11 +548,17 @@ width: 28rem;
     width: 0px;
   }
   .mail{
-    width: 150px;
-    margin-left: -20px;
+    width: 100px;
+ 
+  }
+  .mail input{
+    width: 200px;
   }
    .input button{
     width: 150px;
+  }
+  .mail button{
+    width: 45px;
   }
   .sec2{
     width: 28rem;
@@ -577,8 +593,7 @@ margin-left: -50px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4px;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 }
 }
